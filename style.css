@@ -1,239 +1,187 @@
-b {
+.header {
+  background-image: url(images/kasperzak-hospital-header2.png);
+  height: 200px;
+  vertical-align: bottom;
+  width: 800px;
+}
 
-	font-family: arial, sans-serif;
-	font-weight: bold;
+.headshot {
+  display: block;
+  float: left;
+  text-align: right;
+  height: 200px;
+  width: 158px;
+}
 
+.nav {
+  text-align: right;
+  vertical-align: bottom;
+  height: 200px;
+  padding-top: 170px;
+}
+
+.nav a {
+  color: #ffffff;
+  padding: 10px;
+  display: inline;
+  font: 14px arial, helvetica, sans-serifs;
+  font-weight: regular;
+  text-decoration: none;
+  text-align: right;
+  text-transform: inherit;
+}
+
+.nav a:hover {
+  text-decoration: none;
+  color: #0b3055;
+  font: 14px arial, helvetica, sans-serifs;
+  background-color: #ffffff;
 }
 
 
 .small
 {
-	font-family: arial, sans-serif;
-	font-size: 11px;
-	color: #333333;
-	line-height: 13px;
-	padding-left: 10px;
+  font-family: arial, sans-serif;
+  font-size: 11px;
+  color: #333333;
+  line-height: 13px;
+  padding-left: 10px;
 
 }
 
-.newslist
-{
-	font-family: arial, sans-serif;
-	font-size: 11px;
-	color: #333333;
-	line-height: 13px;
-	padding-left: 10px;
+.newslist {
+  font-family: arial, sans-serif;
+  font-size: 11px;
+  color: #333333;
+  line-height: 13px;
+  padding-left: 10px;
 
 }
 
-
-.super-small
-{
-	font-family: "Trebuchet MS", arial, sans-serif;
-	font-size: 9px;
-	color: #333333;
-	line-height: 14px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+.super-small {
+  font-family: "Trebuchet MS", arial, sans-serif;
+  font-size: 9px;
+  color: #333333;
+  line-height: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-.small-rev
-{
-	font-family: arial, sans-serif;
-	font-size: 10px;
-	color: #ffffff;
-	line-height: 14px;
+.small-rev {
+  font-family: arial, sans-serif;
+  font-size: 10px;
+  color: #ffffff;
+  line-height: 14px;
 }
 
-.small-rev a
-{
-	font-family: arial, sans-serif;
-	font-size: 10px;
-	color: #ffffff;
-	line-height: 14px;
+.small-rev a {
+  font-family: arial, sans-serif;
+  font-size: 10px;
+  color: #ffffff;
+  line-height: 14px;
 }
 
 .small-rev a:hover
 {
-	font-family: arial, sans-serif;
-	font-size: 10px;
-	color: #ffffff;
-	line-height: 14px;
-	text-decoration: underline;
+  font-family: arial, sans-serif;
+  font-size: 10px;
+  color: #ffffff;
+  line-height: 14px;
+  text-decoration: underline;
 
 }
 
 p {
-	font-family: arial, sans-serif;
-	font-size: 16px;
-	color: #000000;
-	font-style: normal;
-	font-weight: normal;
-	line-height: 18px;
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  color: #000000;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 18px;
 }
 
 .body {
-	font-family: arial, sans-serif;
-	font-size: 12px;
-	color: #000000;
-	font-style: normal;
-	font-weight: normal;
-	line-height: 18px;
-	padding-right: 20px;
+  font-family: arial, sans-serif;
+  font-size: 12px;
+  color: #000000;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 18px;
+  padding-right: 20px;
 
 }
 
 ul, li {
-	line-height: 20px;
+  line-height: 20px;
 }
 
 .list {
-	font-family: arial, sans-serif;
-	font-size: 12px;
-	color: #000000;
-	font-style: normal;
-	font-weight: normal;
-	padding-left: 15px;
-	}
+  font-family: arial, sans-serif;
+  font-size: 12px;
+  color: #000000;
+  font-style: normal;
+  font-weight: normal;
+  padding-left: 15px;
+  }
 
 .big-body {
-	font-family: arial, sans-serif;
-	font-size: 15px;
-	color: #0e345a;
-	font-style: normal;
-	padding-left: 10px;
-	font-weight: bold;
+  font-family: arial, sans-serif;
+  font-size: 15px;
+  color: #0e345a;
+  font-style: normal;
+  padding-left: 10px;
+  font-weight: bold;
 }
 
 
 .bodyquote {
-	font-family: arial, sans-serif;
-	font-size: 11px;
-	color: #000000;
-	background: #e5e5e5;
-	font-style: normal;
-	font-weight: normal;
-	line-height: 18px;
-	padding: 10px;
+  font-family: arial, sans-serif;
+  font-size: 11px;
+  color: #000000;
+  background: #e5e5e5;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 18px;
+  padding: 10px;
 }
 
 a {
-	font-family: arial, sans-serif;
-	text-decoration: none;
-	color: #0e345a;
+  font-family: arial, sans-serif;
+  text-decoration: none;
+  color: #0e345a;
 }
 
-a:hover
-{
-	font-family: arial, sans-serif;
-	text-decoration: underline;
-		color: #0e345a;
-
-
-}
-
-h3 {
-	font-family: georia, serif;
-	font-size: 18px;
-	font-weight: bold;
-	color: #0e345a;
-	line-height: 20px;
-}
-
-h2 {
-	font-family: arial, sans-serif;
-	font-size: 14px;
-	color: #666666;
-	font-style: normal;
-	font-weight: bold;
-	
+a:hover {
+  font-family: arial, sans-serif;
+  text-decoration: underline;
+  color: #0e345a;
 }
 
 h1 {
-	font-family: arial, sans-serif;
-	font-size: 20px;
-	font-weight: bold;
-	color: #0e345a;
-	line-height: 24px;
+  font-family: arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #0e345a;
+  line-height: 24px;
 }
 
-.buttonscontainer { width: 800px; }
-
-.buttons a
-{
-	color: #ffffff;
-	padding: 10px;
-	display: inline;
-	font: 14px arial, helvetica, sans-serifs;
-	font-weight: regular;
-	text-decoration: none;
-	text-align: right;
-	text-transform: inherit;
+h2 {
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  color: #666666;
+  font-style: normal;
+  font-weight: bold;
 }
 
-.buttons a:hover
-{
-	text-decoration: none;
-	color: #0b3055;
-	font: 14px arial, helvetica, sans-serifs;
-	background-color: #ffffff;
-	
-
+h3 {
+  font-family: georia, serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #0e345a;
+  line-height: 20px;
 }
 
-
-/* sub Menu Style */
-.sub-buttonscontainer { width: 110px; }
-
-.sub-buttons a
-{
-	color: #F17A1E;
-	background-color: #fff;
-	padding: 1px;
-	padding-left: 15px;
-	display: block;
-	font: 10px arial, helvetica, sans-serifs;
-	font-weight: regular;
-	text-decoration: none;
-	text-align: left;
-	margin-top: 5px;
-	text-transform: inherit;
-	letter-spacing: 0pt;
+b {
+  font-family: arial, sans-serif;
+  font-weight: bold;
 }
-
-.sub-buttons a:hover
-{
-	text-decoration: none;
-	font: 10px arial, helvetica, sans-serifs;
-	color: #000;
-	background-color: #eee;
-
-}
-
-/* SQUARES */
-.squarescontainer { width: 220; }
-
-.squares a {
-	color: #666;
-	background-color: #fff;
-	padding: 0px;
-	padding-left: 6px;
-	display: block;
-	border-left: 10px solid #eee;
-	font: 10px arial, helvetica, sans-serifs;
-	font-weight: regular;
-	text-decoration: none;
-	text-align: left;
-	margin-top: 3px;
-	text-transform: inherit;
-}
-
-.squares a:hover {
-	border-left: 10px solid #f90;
-	text-decoration: none;
-	font: 10px arial, helvetica, sans-serifs;
-	color: #000;
-	background-color: #fff;
-
-}
-
