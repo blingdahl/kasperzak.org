@@ -1,0 +1,16 @@
+Sep 15 16:55:15 10.71.54.15 tmp48998328-8899 Connection from 10.71.54.15 port 56188 on 74.208.57.129 port 22
+Sep 15 16:55:15 10.71.54.15 tmp48998328-8899 Accepted password for tmp48998328-8899 from 10.71.54.15 port 56188 ssh2
+Sep 15 16:55:15 10.71.54.15 tmp48998328-8899 Starting session: subsystem 'sftp' for tmp48998328-8899 from 10.71.54.15 port 56188
+Sep 15 16:55:15 10.71.54.15 tmp48998328-8899 session opened for local user tmp48998328-8899 from [10.71.54.15]
+Sep 15 17:00:33 10.71.54.3 u48998328 Connection from 10.71.54.3 port 21852 on 74.208.57.129 port 22
+Sep 15 17:00:36 10.71.54.3 u48998328 Failed publickey for u48998328 from 10.71.54.3 port 21852 ssh2: ECDSA de:9a:77:ab:07:15:52:7b:65:aa:13:40:0d:c6:56:c5
+Sep 15 17:00:36 10.71.54.3 u48998328 Failed publickey for u48998328 from 10.71.54.3 port 21852 ssh2: ECDSA-CERT ID lindahl@corp.google.com (serial 1801439850988655743) CA RSA 72:57:0a:e1:d7:2f:92:80:66:4f:d1:eb:1e:1b:e9:3e
+Sep 15 17:00:37 10.71.54.3 u48998328 Accepted password for u48998328 from 10.71.54.3 port 21852 ssh2
+Sep 15 17:00:37 10.71.54.3 u48998328 Starting session: subsystem 'sftp' for u48998328 from 10.71.54.3 port 21852
+Sep 15 17:00:37 10.71.54.3 u48998328 session opened for local user u48998328 from [10.71.54.3]
+Sep 15 17:00:57 10.71.54.3 u48998328 Connection from 10.71.54.3 port 34528 on 74.208.57.129 port 22
+Sep 15 17:01:01 10.71.54.3 u48998328 Failed publickey for u48998328 from 10.71.54.3 port 34528 ssh2: ECDSA de:9a:77:ab:07:15:52:7b:65:aa:13:40:0d:c6:56:c5
+Sep 15 17:01:01 10.71.54.3 u48998328 Failed publickey for u48998328 from 10.71.54.3 port 34528 ssh2: ECDSA-CERT ID lindahl@corp.google.com (serial 1801439850988655743) CA RSA 72:57:0a:e1:d7:2f:92:80:66:4f:d1:eb:1e:1b:e9:3e
+Sep 15 17:01:01 10.71.54.3 u48998328 Accepted password for u48998328 from 10.71.54.3 port 34528 ssh2
+Sep 15 17:01:01 10.71.54.3 u48998328 Starting session: subsystem 'sftp' for u48998328 from 10.71.54.3 port 34528
+Sep 15 17:01:01 10.71.54.3 u48998328 session opened for local user u48998328 from [10.71.54.3]
