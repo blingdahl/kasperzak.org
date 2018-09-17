@@ -194,8 +194,12 @@ a {
 
 a:hover {
   font-family: arial, sans-serif;
-  text-decoration: underline;
+  text-decoration: none;
   color: #0e345a;
+}
+
+.text a {
+  text-decoration: underline;
 }
 
 ul.endorsements {
