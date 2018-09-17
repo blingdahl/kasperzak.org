@@ -102,6 +102,10 @@ b {
   font-weight: bold;
 }
 
+.nobr {
+  white-space: nowrap;
+}
+
 /* HEADER */
 
 .header {
@@ -384,11 +388,14 @@ b {
 
 ul.endorsements {
   padding-inline-start: 0;
+  margin-left: 7px;
 }
 
 ul.endorsements li {
   list-style-type: none;
   font-size: 15px;
+  text-indent: -40px;
+  margin-left: 40px;
 }
 
 /* mobile */
