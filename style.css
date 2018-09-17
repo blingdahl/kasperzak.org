@@ -1,8 +1,20 @@
+body {
+  text-align: center;
+  background-color: #35598d;
+  margin-top: 0;
+  font-family: arial, sans-serif;
+}
+
+body>div {
+  margin: auto;
+  width: 800px;
+}
+
 .header {
   background-image: url(images/kasperzak-hospital-header2.png);
   height: 200px;
   vertical-align: bottom;
-  width: 800px;
+  text-align: center;
 }
 
 .headshot {
@@ -38,15 +50,69 @@
   background-color: #ffffff;
 }
 
+.content {
+  background-color: #ffffff;
+  font-family: arial, sans-serif;
+  font-size: 12px;
+  color: #000000;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 18px;
+}
 
-.small
-{
+.content>div {
+  display: inline-block;
+}
+
+.content .text {
+  width: 500px;
+  text-align: left;
+}
+
+.content .rhs {
+  width: 250px;
+  vertical-align: top;
+  text-align: center;
+}
+
+.joinlist {
+  margin-top: 10px;
+  border: 1px solid rgb(0, 102, 153);
+  border-radius: 10px;
+  padding: 5px;
+  width: 170px;
+  display: inline-block;
+}
+
+.register {
+  margin-top: 15px;
+}
+
+.footer {
+  width: 800px;
+  /*background-color: #92aece;*/
+  font-size: 13px;
+  color: white;
+}
+
+.footer>div {
+  padding: 5px;
+}
+
+.copyright {
+  float: left;
+}
+
+.ffpcinfo {
+  text-align: right;
+}
+
+.small {
   font-family: arial, sans-serif;
   font-size: 11px;
   color: #333333;
   line-height: 13px;
   padding-left: 10px;
-
 }
 
 .newslist {
@@ -107,7 +173,6 @@ p {
   font-style: normal;
   font-weight: normal;
   line-height: 18px;
-  padding-right: 20px;
 
 }
 
