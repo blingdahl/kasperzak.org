@@ -205,6 +205,25 @@ ul.endorsements li {
   font-size: 15px;
 }
 
+.resume h1 {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.resume h2 {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.resume p {
+  margin-top: 3px;
+  margin: 0;
+}
+
+.resume li {
+  font-size: 14px;
+}
+
 h1 {
   font-family: arial, sans-serif;
   font-size: 20px;
