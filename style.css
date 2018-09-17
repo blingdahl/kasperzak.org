@@ -1,3 +1,5 @@
+/********** BODY **********/
+
 body {
   text-align: center;
   background-color: #35598d;
@@ -7,183 +9,43 @@ body {
 
 body>div {
   margin: auto;
-  width: 800px;
 }
 
-.header {
-  background-image: url(images/kasperzak-hospital-header.png);
-  height: 200px;
-  vertical-align: bottom;
-  text-align: center;
+/* mobile */
+@media only screen and (max-width: 1000px) {
+  body>div {
+    width: 500px;
+  }
 }
 
-.headshot {
-  display: block;
-  float: left;
-  text-align: right;
-  height: 200px;
-  width: 158px;
-}
-
-.nav {
-  text-align: right;
-  vertical-align: bottom;
-  height: 200px;
-  padding-top: 170px;
-}
-
-.nav a {
-  color: #ffffff;
-  padding: 10px;
-  display: inline;
-  font: 14px arial, helvetica, sans-serifs;
-  font-weight: regular;
-  text-align: right;
-  text-transform: inherit;
-}
-
-.nav a:hover {
-  color: #0b3055;
-  font: 14px arial, helvetica, sans-serifs;
-  background-color: #ffffff;
-}
-
-.content {
-  background-color: #ffffff;
-  font-family: arial, sans-serif;
-  font-size: 12px;
-  color: #000000;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 18px;
-}
-
-.content>div {
-  display: inline-block;
-}
-
-.content .text {
-  width: 500px;
-  text-align: left;
-}
-
-.content .rhs {
-  width: 250px;
-  vertical-align: top;
-  text-align: center;
-}
-
-.donationform {
-  background-color: #d4ebf7;
-  margin-top: 10px;
-  border: 1px solid #006699;
-  border-radius: 10px;
-  padding: 5px;
-  width: 170px;
-  display: inline-block;
-  font-size: 17px;
-}
-
-.register {
-  margin-top: 15px;
-}
-
-.footer {
-  width: 800px;
-  /*background-color: #92aece;*/
-  font-size: 13px;
-  color: white;
-}
-
-.footer>div {
-  padding: 5px;
-}
-
-.copyright {
-  float: left;
-}
-
-.ffpcinfo {
-  text-align: right;
-}
-
-.small {
-  font-family: arial, sans-serif;
-  font-size: 11px;
-  color: #333333;
-  line-height: 13px;
-  padding-left: 10px;
-}
-
-.newslist {
-  font-family: arial, sans-serif;
-  font-size: 11px;
-  color: #333333;
-  line-height: 13px;
-  padding-left: 10px;
-
-}
-
-.super-small {
-  font-family: "Trebuchet MS", arial, sans-serif;
-  font-size: 9px;
-  color: #333333;
-  line-height: 14px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+/* desktop */
+@media only screen and (min-width: 1001px) {
+  body>div {
+    width: 800px;
+  }
 }
 
 p {
   font-family: arial, sans-serif;
-  font-size: 16px;
   color: #000000;
   font-style: normal;
   font-weight: normal;
-  line-height: 18px;
 }
 
-.body {
-  font-family: arial, sans-serif;
-  font-size: 12px;
-  color: #000000;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 18px;
-
-}
-
-ul, li {
-  line-height: 20px;
-}
-
-.list {
-  font-family: arial, sans-serif;
-  font-size: 12px;
-  color: #000000;
-  font-style: normal;
-  font-weight: normal;
-  padding-left: 15px;
+/* mobile */
+@media only screen and (max-width: 1000px) {
+  p {
+    font-size: 20px;
+    line-height: 24px;
   }
-
-.big-body {
-  font-family: arial, sans-serif;
-  font-size: 15px;
-  color: #0e345a;
-  font-style: normal;
-  padding-left: 10px;
-  font-weight: bold;
 }
 
-
-.bodyquote {
-  font-family: arial, sans-serif;
-  font-size: 11px;
-  color: #000000;
-  background: #e5e5e5;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 18px;
-  padding: 10px;
+/* desktop */
+@media only screen and (min-width: 1001px) {
+  p {
+    font-size: 16px;
+    line-height: 18px;
+  }
 }
 
 a {
@@ -198,44 +60,26 @@ a:hover {
   color: #0e345a;
 }
 
-.text a {
-  text-decoration: underline;
-}
-
-ul.endorsements {
-  padding-inline-start: 0;
-}
-
-ul.endorsements li {
-  list-style-type: none;
-  font-size: 15px;
-}
-
-.resume h1 {
-  margin-top: 10px;
-  margin-bottom: 0;
-}
-
-.resume h2 {
-  margin-top: 10px;
-  margin-bottom: 0;
-}
-
-.resume p {
-  margin-top: 3px;
-  margin: 0;
-}
-
-.resume li {
-  font-size: 14px;
-}
-
 h1 {
   font-family: arial, sans-serif;
-  font-size: 20px;
   font-weight: bold;
   color: #0e345a;
-  line-height: 24px;
+}
+
+/* mobile */
+@media only screen and (max-width: 1000px) {
+  h1 {
+    font-size: 35px;
+    line-height: 37px;
+  }
+}
+
+/* desktop */
+@media only screen and (min-width: 1001px) {
+  h1 {
+    font-size: 24px;
+    line-height: 28px;
+  }
 }
 
 h2 {
@@ -256,4 +100,335 @@ h3 {
 b {
   font-family: arial, sans-serif;
   font-weight: bold;
+}
+
+/* HEADER */
+
+.header {
+  vertical-align: bottom;
+  text-align: center;
+}
+
+/* mobile */
+@media only screen and (max-width: 1000px) {
+  .header {
+    background-image: url(images/kasperzak-hospital-header-mobile.png);
+    background-repeat: no-repeat;
+    height: 190px;
+  }
+}
+
+/* desktop */
+@media only screen and (min-width: 1001px) {
+  .header {
+    background-image: url(images/kasperzak-hospital-header.png);
+    background-repeat: no-repeat;
+    height: 200px;
+  }
+}
+
+.headshot {
+  display: block;
+  float: left;
+}
+
+/* mobile */
+@media only screen and (max-width: 1000px) {
+  .headshot {
+    height: 160px;
+    width: 128px;
+  }
+}
+
+/* desktop */
+@media only screen and (min-width: 1001px) {
+  .headshot {
+    height: 200px;
+  width: 158px;
+  }
+}
+
+.nav {
+  text-align: right;
+  vertical-align: bottom;
+  height: 200px;
+}
+
+/* mobile */
+@media only screen and (max-width: 1000px) {
+  .nav {
+    display: block;
+    height: 200px;
+    padding-top: 165px;
+  }
+}
+
+/* desktop */
+@media only screen and (min-width: 1001px) {
+  .nav {
+    height: 200px;
+    padding-top: 170px;
+  }
+}
+
+.nav a {
+  color: #ffffff;
+  display: inline;
+  font-family: arial, helvetica, sans-serifs;
+  text-align: right;
+  text-transform: inherit;
+}
+
+/* mobile */
+@media only screen and (max-width: 1000px) {
+  .nav a {
+    padding: 8px;
+    font-size: 16px;
+  }
+}
+
+/* desktop */
+@media only screen and (min-width: 1001px) {
+  .nav a {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
+.nav a:hover {
+}
+
+/* mobile */
+@media only screen and (max-width: 1000px) {
+  .nav a:hover {
+    color: #aaaaaa;
+  }
+}
+
+/* desktop */
+@media only screen and (min-width: 1001px) {
+  .nav a:hover {
+    color: #0b3055;
+    background-color: #ffffff;
+  }
+}
+
+/********** CONTENT **********/
+
+.content {
+  background-color: #ffffff;
+  text-align: left;
+}
+
+
+/********** TEXT **********/
+
+.text {
+  font-family: arial, sans-serif;
+  color: #000000;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 18px;
+  padding: 10px;
+}
+
+/* mobile */
+@media only screen and (max-width: 1000px) {
+  .text {
+  display: block;
+  }
+}
+
+/* desktop */
+@media only screen and (min-width: 1001px) {
+  .text {
+  width: 500px;
+  display: inline-block;
+  }
+}
+
+.text a {
+  text-decoration: underline;
+}
+
+
+/********** RHS **********/
+
+.rhs {
+  text-align: center;
+  display: inline-block;
+}
+
+/* mobile */
+@media only screen and (max-width: 1000px) {
+  .rhs {
+    width: 480px;
+    vertical-align: middle;
+    padding-bottom: 10px;
+  }
+}
+
+/* desktop */
+@media only screen and (min-width: 1001px) {
+  .rhs {
+    width: 250px;
+    vertical-align: top;
+  }
+}
+
+.register {
+  margin-top: 15px;
+  display: inline-block;
+}
+
+/* mobile */
+@media only screen and (max-width: 1000px) {
+  .register {
+    width: 200px;
+    vertical-align: middle;
+  }
+}
+
+/* desktop */
+@media only screen and (min-width: 1001px) {
+  .register {
+  }
+}
+
+.donationform {
+  background-color: #d4ebf7;
+  margin-top: 10px;
+  border: 1px solid #006699;
+  border-radius: 10px;
+  padding: 5px;
+  width: 170px;
+  display: inline-block;
+  font-size: 17px;
+}
+
+/* mobile */
+@media only screen and (max-width: 1000px) {
+  .donationform {
+    width: 170px;
+    vertical-align: middle;
+  }
+}
+
+/* desktop */
+@media only screen and (min-width: 1001px) {
+  .donationform {
+  }
+}
+
+
+/********** FOOTER **********/
+
+.footer {
+  font-size: 13px;
+  color: white;
+}
+
+/* mobile */
+@media only screen and (max-width: 1000px) {
+  .footer {
+    width: 500px;
+  }
+}
+
+/* desktop */
+@media only screen and (min-width: 1001px) {
+  .footer {
+    width: 800px;
+  }
+}
+
+.footer>div {
+  padding: 5px;
+}
+
+.copyright {
+  float: left;
+}
+
+.ffpcinfo {
+  text-align: right;
+}
+
+
+/********** INDEX PAGE **********/
+
+.endorsedby {
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  color: #0e345a;
+}
+
+/* mobile */
+@media only screen and (max-width: 1000px) {
+  .endorsedby {
+    font-size: 28px;
+    line-height: 32px;
+  }
+}
+
+/* desktop */
+@media only screen and (min-width: 1001px) {
+  .endorsedby {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+
+/********** ENDORSEMENTS PAGE **********/
+
+ul.endorsements {
+  padding-inline-start: 0;
+}
+
+ul.endorsements li {
+  list-style-type: none;
+  font-size: 15px;
+}
+
+ul.endorsements a {
+
+}
+
+/* mobile */
+@media only screen and (max-width: 1000px) {
+  ul.endorsements li {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+/* desktop */
+@media only screen and (min-width: 1001px) {
+  ul.endorsements li {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+
+/********** RESUME PAGE **********/
+
+.resume h1 {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.resume h2 {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.resume p {
+  margin-top: 3px;
+  margin: 0;
+}
+
+.resume li {
+  font-size: 14px;
 }
