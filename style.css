@@ -391,10 +391,6 @@ ul.endorsements li {
   font-size: 15px;
 }
 
-ul.endorsements a {
-
-}
-
 /* mobile */
 @media only screen and (max-width: 1000px) {
   ul.endorsements li {
@@ -415,13 +411,29 @@ ul.endorsements a {
 /********** RESUME PAGE **********/
 
 .resume h1 {
-  margin-top: 10px;
+  margin-top: 24px;
   margin-bottom: 0;
 }
 
 .resume h2 {
-  margin-top: 10px;
+  margin-top: 18px;
   margin-bottom: 0;
+}
+
+/* mobile */
+@media only screen and (max-width: 1000px) {
+  .resume h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+/* desktop */
+@media only screen and (min-width: 1001px) {
+  .resume h2 {
+    font-size: 18px;
+    line-height: 22px;
+  }
 }
 
 .resume p {
@@ -430,5 +442,21 @@ ul.endorsements a {
 }
 
 .resume li {
-  font-size: 14px;
+  font-size: 16px;
+}
+
+/* mobile */
+@media only screen and (max-width: 1000px) {
+  .resume li {
+    font-size: 22px;
+    line-height: 26px;
+  }
+}
+
+/* desktop */
+@media only screen and (min-width: 1001px) {
+  .resume li {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
