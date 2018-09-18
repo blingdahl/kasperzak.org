@@ -11,15 +11,22 @@ body>div {
   margin: auto;
 }
 
-/* mobile */
-@media only screen and (max-width: 1000px) {
+/* small-screen mobile */
+@media only screen and (max-width: 600px) {
   body>div {
     width: 500px;
   }
 }
 
+/* large-screen mobile */
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  body>div {
+    width: 800px;
+  }
+}
+
 /* desktop */
-@media only screen and (min-width: 1001px) {
+@media only screen and (min-width: 993px) {
   body>div {
     width: 800px;
   }
@@ -32,16 +39,24 @@ p {
   font-weight: normal;
 }
 
-/* mobile */
-@media only screen and (max-width: 1000px) {
+/* small-screen mobile */
+@media only screen and (max-width: 600px) {
   p {
     font-size: 20px;
     line-height: 24px;
   }
 }
 
+/* large-screen mobile */
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  p {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
 /* desktop */
-@media only screen and (min-width: 1001px) {
+@media only screen and (min-width: 993px) {
   p {
     font-size: 16px;
     line-height: 18px;
@@ -66,8 +81,16 @@ h1 {
   color: #0e345a;
 }
 
-/* mobile */
-@media only screen and (max-width: 1000px) {
+/* small-screen mobile */
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 35px;
+    line-height: 37px;
+  }
+}
+
+/* large-screen mobile */
+@media only screen and (min-width: 601px) and (max-width: 992px) {
   h1 {
     font-size: 35px;
     line-height: 37px;
@@ -75,7 +98,7 @@ h1 {
 }
 
 /* desktop */
-@media only screen and (min-width: 1001px) {
+@media only screen and (min-width: 993px) {
   h1 {
     font-size: 24px;
     line-height: 28px;
@@ -113,8 +136,8 @@ b {
   text-align: center;
 }
 
-/* mobile */
-@media only screen and (max-width: 1000px) {
+/* small-screen mobile */
+@media only screen and (max-width: 600px) {
   .header {
     background-image: url(images/kasperzak-hospital-header-mobile.png);
     background-repeat: no-repeat;
@@ -122,8 +145,17 @@ b {
   }
 }
 
+/* large-screen mobile */
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  .header {
+    background-image: url(images/kasperzak-hospital-header.png);
+    background-repeat: no-repeat;
+    height: 260px;
+  }
+}
+
 /* desktop */
-@media only screen and (min-width: 1001px) {
+@media only screen and (min-width: 993px) {
   .header {
     background-image: url(images/kasperzak-hospital-header.png);
     background-repeat: no-repeat;
@@ -136,40 +168,59 @@ b {
   float: left;
 }
 
-/* mobile */
-@media only screen and (max-width: 1000px) {
+/* small-screen mobile */
+@media only screen and (max-width: 600px) {
   .headshot {
     height: 160px;
     width: 128px;
   }
 }
 
-/* desktop */
-@media only screen and (min-width: 1001px) {
+/* large-screen mobile */
+@media only screen and (min-width: 601px) and (max-width: 992px) {
   .headshot {
     height: 200px;
-  width: 158px;
+    width: 158px;
+  }
+}
+
+/* desktop */
+@media only screen and (min-width: 993px) {
+  .headshot {
+    height: 200px;
+    width: 158px;
   }
 }
 
 .nav {
-  text-align: right;
   vertical-align: bottom;
   height: 200px;
 }
 
-/* mobile */
-@media only screen and (max-width: 1000px) {
+/* small-screen mobile */
+@media only screen and (max-width: 600px) {
   .nav {
+    text-align: center;
     display: block;
     height: 200px;
     padding-top: 165px;
   }
 }
 
-/* desktop */
-@media only screen and (min-width: 1001px) {
+/* large-screen mobile */
+@media only screen and (min-width: 601px) and (max-width: 992px) {
   .nav {
+    text-align: center;
+    display: block;
+    height: 260px;
+    padding-top: 218px;
+  }
+}
+
+/* desktop */
+@media only screen and (min-width: 993px) {
+  .nav {
+    text-align: right;
     height: 200px;
     padding-top: 170px;
   }
@@ -183,16 +234,24 @@ b {
   text-transform: inherit;
 }
 
-/* mobile */
-@media only screen and (max-width: 1000px) {
+/* small-screen mobile */
+@media only screen and (max-width: 600px) {
   .nav a {
     padding: 13px;
     font-size: 16px;
   }
 }
 
+/* large-screen mobile */
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  .nav a {
+    padding: 26px;
+    font-size: 24px;
+  }
+}
+
 /* desktop */
-@media only screen and (min-width: 1001px) {
+@media only screen and (min-width: 993px) {
   .nav a {
     padding: 10px;
     font-size: 14px;
@@ -202,15 +261,23 @@ b {
 .nav a:hover {
 }
 
-/* mobile */
-@media only screen and (max-width: 1000px) {
+/* small-screen mobile */
+@media only screen and (max-width: 600px) {
   .nav a:hover {
     color: #aaaaaa;
   }
 }
 
+/* large-screen mobile */
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  .nav a:hover {
+    color: #0b3055;
+    background-color: #ffffff;
+  }
+}
+
 /* desktop */
-@media only screen and (min-width: 1001px) {
+@media only screen and (min-width: 993px) {
   .nav a:hover {
     color: #0b3055;
     background-color: #ffffff;
@@ -236,18 +303,25 @@ b {
   padding: 10px;
 }
 
-/* mobile */
-@media only screen and (max-width: 1000px) {
+/* small-screen mobile */
+@media only screen and (max-width: 600px) {
   .text {
-  display: block;
+    display: block;
+  }
+}
+
+/* large-screen mobile */
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  .text {
+    display: block;
   }
 }
 
 /* desktop */
-@media only screen and (min-width: 1001px) {
+@media only screen and (min-width: 993px) {
   .text {
-  width: 500px;
-  display: inline-block;
+    width: 500px;
+    display: inline-block;
   }
 }
 
@@ -263,8 +337,17 @@ b {
   display: inline-block;
 }
 
-/* mobile */
-@media only screen and (max-width: 1000px) {
+/* small-screen mobile */
+@media only screen and (max-width: 600px) {
+  .rhs {
+    width: 480px;
+    vertical-align: middle;
+    padding-bottom: 10px;
+  }
+}
+
+/* large-screen mobile */
+@media only screen and (min-width: 601px) and (max-width: 992px) {
   .rhs {
     width: 480px;
     vertical-align: middle;
@@ -273,7 +356,7 @@ b {
 }
 
 /* desktop */
-@media only screen and (min-width: 1001px) {
+@media only screen and (min-width: 993px) {
   .rhs {
     width: 250px;
     vertical-align: top;
@@ -285,8 +368,16 @@ b {
   display: inline-block;
 }
 
-/* mobile */
-@media only screen and (max-width: 1000px) {
+/* small-screen mobile */
+@media only screen and (max-width: 600px) {
+  .register {
+    width: 200px;
+    vertical-align: middle;
+  }
+}
+
+/* large-screen mobile */
+@media only screen and (min-width: 601px) and (max-width: 992px) {
   .register {
     width: 200px;
     vertical-align: middle;
@@ -294,7 +385,7 @@ b {
 }
 
 /* desktop */
-@media only screen and (min-width: 1001px) {
+@media only screen and (min-width: 993px) {
   .register {
   }
 }
@@ -310,8 +401,16 @@ b {
   font-size: 17px;
 }
 
-/* mobile */
-@media only screen and (max-width: 1000px) {
+/* small-screen mobile */
+@media only screen and (max-width: 600px) {
+  .donationform {
+    width: 170px;
+    vertical-align: middle;
+  }
+}
+
+/* large-screen mobile */
+@media only screen and (min-width: 601px) and (max-width: 992px) {
   .donationform {
     width: 170px;
     vertical-align: middle;
@@ -319,7 +418,7 @@ b {
 }
 
 /* desktop */
-@media only screen and (min-width: 1001px) {
+@media only screen and (min-width: 993px) {
   .donationform {
   }
 }
@@ -332,15 +431,22 @@ b {
   color: white;
 }
 
-/* mobile */
-@media only screen and (max-width: 1000px) {
+/* small-screen mobile */
+@media only screen and (max-width: 600px) {
   .footer {
     width: 500px;
   }
 }
 
+/* large-screen mobile */
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  .footer {
+    width: 800px;
+  }
+}
+
 /* desktop */
-@media only screen and (min-width: 1001px) {
+@media only screen and (min-width: 993px) {
   .footer {
     width: 800px;
   }
@@ -367,8 +473,16 @@ b {
   color: #0e345a;
 }
 
-/* mobile */
-@media only screen and (max-width: 1000px) {
+/* small-screen mobile */
+@media only screen and (max-width: 600px) {
+  .endorsedby {
+    font-size: 28px;
+    line-height: 32px;
+  }
+}
+
+/* large-screen mobile */
+@media only screen and (min-width: 601px) and (max-width: 992px) {
   .endorsedby {
     font-size: 28px;
     line-height: 32px;
@@ -376,7 +490,7 @@ b {
 }
 
 /* desktop */
-@media only screen and (min-width: 1001px) {
+@media only screen and (min-width: 993px) {
   .endorsedby {
     font-size: 24px;
     line-height: 28px;
@@ -398,8 +512,16 @@ ul.endorsements li {
   margin-left: 40px;
 }
 
-/* mobile */
-@media only screen and (max-width: 1000px) {
+/* small-screen mobile */
+@media only screen and (max-width: 600px) {
+  ul.endorsements li {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+/* large-screen mobile */
+@media only screen and (min-width: 601px) and (max-width: 992px) {
   ul.endorsements li {
     font-size: 24px;
     line-height: 32px;
@@ -407,7 +529,7 @@ ul.endorsements li {
 }
 
 /* desktop */
-@media only screen and (min-width: 1001px) {
+@media only screen and (min-width: 993px) {
   ul.endorsements li {
     font-size: 16px;
     line-height: 24px;
@@ -427,8 +549,16 @@ ul.endorsements li {
   margin-bottom: 0;
 }
 
-/* mobile */
-@media only screen and (max-width: 1000px) {
+/* small-screen mobile */
+@media only screen and (max-width: 600px) {
+  .resume h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+/* large-screen mobile */
+@media only screen and (min-width: 601px) and (max-width: 992px) {
   .resume h2 {
     font-size: 24px;
     line-height: 32px;
@@ -436,7 +566,7 @@ ul.endorsements li {
 }
 
 /* desktop */
-@media only screen and (min-width: 1001px) {
+@media only screen and (min-width: 993px) {
   .resume h2 {
     font-size: 18px;
     line-height: 22px;
@@ -452,8 +582,16 @@ ul.endorsements li {
   font-size: 16px;
 }
 
-/* mobile */
-@media only screen and (max-width: 1000px) {
+/* small-screen mobile */
+@media only screen and (max-width: 600px) {
+  .resume li {
+    font-size: 22px;
+    line-height: 26px;
+  }
+}
+
+/* large-screen mobile */
+@media only screen and (min-width: 601px) and (max-width: 992px) {
   .resume li {
     font-size: 22px;
     line-height: 26px;
@@ -461,7 +599,7 @@ ul.endorsements li {
 }
 
 /* desktop */
-@media only screen and (min-width: 1001px) {
+@media only screen and (min-width: 993px) {
   .resume li {
     font-size: 16px;
     line-height: 24px;
