@@ -349,7 +349,7 @@ b {
 /* large-screen mobile */
 @media only screen and (min-width: 601px) and (max-width: 992px) {
   .rhs {
-    width: 480px;
+    width: 680px;
     vertical-align: middle;
     padding-bottom: 10px;
   }
@@ -398,7 +398,6 @@ b {
   padding: 5px;
   width: 170px;
   display: inline-block;
-  font-size: 17px;
 }
 
 /* small-screen mobile */
@@ -406,20 +405,23 @@ b {
   .donationform {
     width: 170px;
     vertical-align: middle;
+    font-size: 20px;
   }
 }
 
 /* large-screen mobile */
 @media only screen and (min-width: 601px) and (max-width: 992px) {
   .donationform {
-    width: 170px;
+    width: 300px;
     vertical-align: middle;
+    font-size: 30px;
   }
 }
 
 /* desktop */
 @media only screen and (min-width: 993px) {
   .donationform {
+    font-size: 17px;
   }
 }
 
